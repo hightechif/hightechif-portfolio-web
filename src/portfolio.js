@@ -89,7 +89,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Mobile Development",
+      title: "Machine Learning and AI",
       fileName: "DataScienceImg",
       skills: [
         "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
@@ -97,13 +97,6 @@ const skills = {
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
@@ -137,6 +130,25 @@ const skills = {
         {
           skillName: "Deeplearning",
           imageSrc: "deeplearning_ai_logo.png",
+        },
+      ],
+    },
+    {
+      title: "Mobile Development",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Lorem Ipsum",
+        // "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        // "⚡ Experience of working with Computer Vision and NLP projects",
+        // "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
         },
       ],
     },
@@ -493,6 +505,24 @@ const certifications = {
       alt_name: "Binar",
       color_code: "#EEEEFF",
     },
+    {
+      title: "Fullstack Development",
+      subtitle: "- Alamanda Shantika",
+      logo_path: "binar_logo.svg",
+      certificate_link:
+        "https://drive.google.com/file/d/1DNod4nFIFxmlXrZWZvFjrLP1znjQzwVb/view?usp=sharing",
+      alt_name: "Binar",
+      color_code: "#EEEEFF",
+    },
+    {
+      title: "Fullstack Development",
+      subtitle: "- Alamanda Shantika",
+      logo_path: "binar_logo.svg",
+      certificate_link:
+        "https://drive.google.com/file/d/1DNod4nFIFxmlXrZWZvFjrLP1znjQzwVb/view?usp=sharing",
+      alt_name: "Binar",
+      color_code: "#EEEEFF",
+    },
     // {
     //   title: "Kuberenetes on GCP",
     //   subtitle: "- Qwiklabs",
@@ -536,35 +566,57 @@ const experience = {
       experiences: [
         {
           title: "Mobile Engineer",
-          company: "SG-EDTS",
+          company: "P.T. Elevenia Digital Teknologi Sukses",
           company_url: "https://sg-edts.com/",
           logo_path: "freecopy_logo.png",
           duration: "Apr 2022 - Present",
           location: "Jakarta, Indonesia",
           description:
-            "Develop Android applications for several mobile apps using Android Studio with Kotlin.",
+            "Develop and deliver 5 Android applications (Deliveryman, Poinku, GurihMart, LPI, and Klik Indomaret). Create and Improve UI components custom libraries (edtslib and edtsscreen). Improve productivity and development time efficiency by introducing MapStruct for data mapper into the mobile team. Provide technical solutions and collaborate effectively with cross-functional teams (PM, QA, UI/UX, Frontend Engineer, Backend Engineer, Data Engineer, and Digital Marketer) to ensure seamless project execution and optimal outcomes.",
+          color: "#fc1f20",
+        },
+        {
+          title: "Mobile Engineer",
+          company: "Lembaga Riset Merah Putih",
+          company_url: "https://sg-edts.com/",
+          logo_path: "freecopy_logo.png",
+          duration: "Apr 2021 - Mar 2022",
+          location: "Yogyakarta, Indonesia",
+          description:
+            "Develop and deliver a fully functional end-to-end Android application called CovWatch for a health monitoring system that reads human vital data such as heart rate, body temperature, humidity, blood pressure, and sleep pattern from a smartwatch via a Bluetooth Low Energy (BLE) feature and transmits it to the API service which the hospital nurses would use to evaluate their hospital patients condition.",
           color: "#fc1f20",
         },
         {
           title: "Technology Management Trainee",
-          company: "SG-EDTS",
+          company: "P.T. Elevenia Digital Teknologi Sukses",
           company_url: "https://sg-edts.com/",
           logo_path: "freecopy_logo.png",
           duration: "Apr 2021 - Mar 2022",
           location: "Jakarta, Indonesia",
           description:
-            "A rotational program of three months each to work across various functions (QA, Backend, Frontend, and Mobile).",
+            "A rotational program of three months each to work across various functions (QA, Backend, Frontend, and Mobile). Target achievement rate was 88.5% (3.54/4) in Mobile Development.",
           color: "#fc1f20",
         },
         {
           title: "Computer Programming Lab. Works Assistant",
-          company: "UGM",
+          company: "Lab. of Computing, DTNTF, UGM",
           company_url: "https://ugm.ac.id/",
           logo_path: "ugm_logo.png",
           duration: "Sep 2018 - Nov 2018",
           location: "D.I. Yogyakarta, Indonesia",
           description:
-            "Guide students to do Python programming assignments using Jupyter Notebook at Lab. of Computing, DTNTF",
+            "Guide students to do 9 Python programming assignments using Jupyter Notebook for the semester. Evaluate and score their written Python program to meet the requirement expectation and pass their score to the head of the laboratory.",
+          color: "#4285F4",
+        },
+        {
+          title: "Computer Programming Lab. Works Assistant",
+          company: "Lab. of Computing, DTNTF, UGM",
+          company_url: "https://ugm.ac.id/",
+          logo_path: "ugm_logo.png",
+          duration: "Sep 2017 - Nov 2017",
+          location: "D.I. Yogyakarta, Indonesia",
+          description:
+            "Guide students to do 9 Python programming assignments using Jupyter Notebook for the semester. Evaluate and score their written Python program to meet the requirement expectation and pass their score to the head of the laboratory.",
           color: "#4285F4",
         },
         // {
